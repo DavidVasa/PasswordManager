@@ -1,0 +1,16 @@
+{
+  "name": "passwordmanager-backend",
+  "version": "1.0.0",
+  "description": "Local Password Manager backend (Node.js + Express.js, encrypted vault)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "author": "David V\u00e1\u0161a & M365 Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1"
+  }
+}
